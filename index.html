@@ -799,7 +799,24 @@ function showMessage(){
 }
 
 </script>
+<script>
 
+function submitApplication(event){
+
+    event.preventDefault();
+
+    alert(
+    "Application Submitted Successfully!\n\n" +
+    "Thank you for applying to ABC College.\n" +
+    "Our admission team will review your application and contact you soon."
+    );
+
+    document.querySelector("form").reset();
+
+}
+
+</script>
+    
 </body>
 
 </html>
