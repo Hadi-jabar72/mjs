@@ -1,2 +1,1 @@
-# mjs
-college web page
+# submited sucessfully
